@@ -1,6 +1,17 @@
 services:
   web:
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.rjm.rule=Host(`rjm.ie`)"
+      - "traefik.http.services.rjm.loadbalancer.server.port=80"
+      - "traefik.http.routers.rjm.entrypoints=web"
+      - "external-service=true"
     build: .
-    ports:
-      - "${EXPOSED_PORT}:80"
+    networks:
+      - traefik-external
+    container_name: "rjm-site"
     restart: always
+
+networks:
+  traefik-external:
+    external: true
