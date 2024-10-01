@@ -1,7 +1,7 @@
 import type { PageServerLoad } from './$types';
 
-export const load = () => {
+export const load: PageServerLoad = async () => {
 	return {
 		hello: 'hello world!'
 	};
-}) satisfies PageServerLoad;
+}
