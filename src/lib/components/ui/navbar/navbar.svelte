@@ -1,5 +1,5 @@
 <nav class="navbar w-screen p-4 fixed top-0 left-0 z-50">
-    <ul class="flex justify-around items-center w-full text-gray-400 text-xl">
+    <ul class="flex justify-around items-center w-full text-gray-400 text-xl flex-wrap">
         <li>
             <a href="/" class="hover:text-white">Home</a>
         </li>

@@ -60,6 +60,9 @@ const config: Config = {
 				sans: ["Montserrat", ...fontFamily.sans],
 				roboto: ["Roboto", ...fontFamily.sans],
 				mono: ["JetBrains Mono", ...fontFamily.mono]
+			},
+			screens: {
+				'xs': '200px'
 			}
 		}
 	},
