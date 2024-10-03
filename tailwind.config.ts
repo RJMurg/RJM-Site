@@ -1,5 +1,6 @@
 import { fontFamily } from "tailwindcss/defaultTheme";
 import type { Config } from "tailwindcss";
+import colors from "tailwindcss/colors";
 
 const config: Config = {
 	darkMode: ["class"],
@@ -47,7 +48,8 @@ const config: Config = {
 				card: {
 					DEFAULT: "hsl(var(--card) / <alpha-value>)",
 					foreground: "hsl(var(--card-foreground) / <alpha-value>)"
-				}
+				},
+				gray: colors.neutral
 			},
 			borderRadius: {
 				lg: "var(--radius)",
@@ -55,7 +57,9 @@ const config: Config = {
 				sm: "calc(var(--radius) - 4px)"
 			},
 			fontFamily: {
-				sans: [...fontFamily.sans]
+				sans: ["Montserrat", ...fontFamily.sans],
+				roboto: ["Roboto", ...fontFamily.sans],
+				mono: ["JetBrains Mono", ...fontFamily.mono]
 			}
 		}
 	},
