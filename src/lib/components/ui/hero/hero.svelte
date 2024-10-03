@@ -29,7 +29,7 @@
 
 <div class="flex flex-row justify-around items-center w-screen text-4xl pt-10 text-gray-400">
     <a href="/about" class="hover:underline hover:text-white transition-all duration-200 ease-linear">About</a>
-    <a href="blog.rjm.ie" class="hover:underline hover:text-white transition-all duration-200 ease-linear">Blog</a>
+    <a href="https://blog.rjm.ie" class="hover:underline hover:text-white transition-all duration-200 ease-linear">Blog</a>
     <a href="/portfolio" class="hover:underline hover:text-white transition-all duration-200 ease-linear">Portfolio</a>
     <a href="/achievements" class="hover:underline hover:text-white transition-all duration-200 ease-linear">Achievements</a>
 </div>
