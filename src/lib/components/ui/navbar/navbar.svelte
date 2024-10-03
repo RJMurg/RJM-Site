@@ -7,13 +7,13 @@
             <a href="/about" class="hover:text-white">About</a>
         </li>
         <li>
-            <a href="/blog" class="hover:text-white">Blog</a>
+            <a href="https://blog.rjm.ie" class="hover:text-white">Blog</a>
         </li>
         <li>
             <a href="/portfolio" class="hover:text-white">Portfolio</a>
         </li>
         <li>
-            <a href="/achievements" class="hover:text-white">Achievements</a>
+            <a href="/experience" class="hover:text-white">Experience</a>
         </li>
     </ul>
 </nav>

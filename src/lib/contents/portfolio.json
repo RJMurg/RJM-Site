@@ -1,0 +1,48 @@
+{
+    "projects": [
+        {
+            "title": "SIM",
+            "image": "sim.png",
+            "link": "https://github.com/rjmurg/sim",
+            "shortDescription": "At-a-glance date checking for shops",
+            "description": [
+                "I created this app while working in a small local shop.",
+                "With the goal of knowing what stock to take off the shelves at a glance, I created the proof of concept over a weekend.",
+                "SIM was then rewritten in SvelteKit and had more features added after discussion with management."
+            ]
+        },
+        {
+            "title": "Starboard",
+            "image": "starboard.png",
+            "link": "https://github.com/rjmurg/friendconstellation",
+            "shortDescription": "Get stars for completing tasks",
+            "description": [
+                "As a joke, I created this app where my friends would compete for stars, inspired by the concept of a 'star board' from Primary School.",
+                "I would list simple tasks such as 'Draw the interior of your fridge', or 'Make a word with the spice jars in your kitchen' and award stars based on how well they completed the task.",
+                "I wrote the app in SvelteKit, using IBM's Carbon Design System for the UI. It connects to a PostgreSQL database through the Prisma ORM."
+            ]
+        },
+        {
+            "title": "BitHunt",
+            "image": "bithunt.png",
+            "link": "https://github.com/cs-soc-tudublin/bithunt",
+            "shortDescription": "AR Treasure Hunts for TU Dublin Students",
+            "description": [
+                "During every Student Life festival, we would hide QR codes around the campus for students to scan and solve puzzles.",
+                "This allowed First Year students to get to know the campus and increase society membership!",
+                "I wrote the app in SvelteKit, and connected directly to a PostgreSQL database."
+            ]
+        },
+        {
+            "title": "Clerk",
+            "image": "clerk.png",
+            "link": "https://github.com/cs-soc-tudublin/clerk",
+            "shortDescription": "Obsidian plugin for writing documents faster",
+            "description": [
+                "I created Clerk to make it easier to write the Sysadmin Docs, Blog posts and meeting minutes easier for the TU Dublin Computer Science Society.",
+                "It creates correctly populates the 'frontmatter' metadata for markdown files which includes things like author, tags, meeting attendees, etc.",
+                "Clerk was written in TypeScript and uses the ObsidianMD API to interact with the markdown files."
+            ]
+        }
+    ]
+}
