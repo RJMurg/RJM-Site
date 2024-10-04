@@ -1,36 +1,26 @@
 <script lang="ts">
-    import * as Card from '$lib/components/ui/card';
-    import { ExternalLink } from 'lucide-svelte';
-
+    import ShowcaseCard from '$lib/components/ui/showcaseCard/showcaseCard.svelte';
     export let title: string;
-    export let image: string;
-    export let link: string;
-    export let subtitle: string;
-    export let description: string[];
+    export let items: [showcaseItem];
+    export let imageDirectory: string;
 </script>
 
-<Card.Root class="m-5 min-w-[16rem] max-w-[30rem] h-full">
-    <Card.Header class="flex align-center items-center">
-        {#if image !== "portfolio/"}
-            <img src={image} alt={title} class="rounded-full w-20 h-20 object-cover"/>
-        {:else}
-            <img src="favicon.png" alt="Placeholder" class="w-20 h-20 object-cover"/>
-        {/if}
+<svelte:head>
+    <title>RJM - {title}</title>
+</svelte:head>
 
-        {#if link !== ""}
-            <a href={link} class="flex flex-row items-center hover:text-gray-400">
-                <Card.Title class="text-bold text-4xl">{title}</Card.Title>
-                <ExternalLink class="w-6 h-6 m-0 ml-2 p-0"/>
-            </a>
-        {:else}
-            <Card.Title>{title}</Card.Title>
-        {/if}
+<section class="h-screen overflow-scroll">
+    <h1 class="text-4xl text-center mt-20">{title}</h1>
 
-        <Card.Description>{subtitle}</Card.Description>
-    </Card.Header>
-    <Card.Content>
-        {#each description as line}
-            <p class="m-2">{line}</p>
-        {/each}
-    </Card.Content>
-</Card.Root>
+    <div class="w-full h-max grid grid-cols-1 gap-6 lg:grid-cols-2">
+      {#each items as item}
+        <ShowcaseCard
+          title={item.title}
+          image={imageDirectory + '/' + item.image}
+          link={item.link}
+          subtitle={item.shortDescription}
+          description={item.description}
+        />
+      {/each}
+    </div>
+</section>

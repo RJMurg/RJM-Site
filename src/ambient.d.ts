@@ -1,8 +1,8 @@
-type portfolioItems = [
-    projects: [portfolioItem]
+type showcaseItems = [
+    items: [showcaseItem]
 ]
 
-type portfolioItem = {
+type showcaseItem = {
     title: string,
     image: string,
     link: string,

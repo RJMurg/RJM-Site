@@ -1,6 +1,7 @@
 <script lang="ts">
     import { Button } from '$lib/components/ui/button';
     import { Linkedin, Github } from 'lucide-svelte';
+    import Routes from '$lib/contents/routes.json';
 </script>
 
 <svelte:head>
@@ -29,9 +30,10 @@
     </div>
 
     <div class="flex flex-row xs:max-sm:flex-col justify-around items-center w-screen text-4xl pt-10 xs:max-lg:absolute xs:max-lg:bottom-10 text-gray-400">
-        <a href="/about" class="hover:underline hover:text-white transition-all duration-200 ease-linear">About</a>
-        <a href="https://blog.rjm.ie" class="hover:underline hover:text-white transition-all duration-200 ease-linear">Blog</a>
-        <a href="/portfolio" class="hover:underline hover:text-white transition-all duration-200 ease-linear">Portfolio</a>
-        <a href="/experience" class="hover:underline hover:text-white transition-all duration-200 ease-linear">Experience</a>
+        {#each Routes.routes as route}
+            {#if route.name !== "Home"}
+                <a href={route.path} class="hover:underline hover:text-white transition-all duration-200 ease-linear">{route.name}</a>
+            {/if}
+        {/each}
     </div>
 </section>

@@ -1,11 +1,9 @@
 <script lang="ts">
     import Navbar from '$lib/components/ui/navbar/navbar.svelte';
+    import Showcase from '$lib/components/ui/showcase/showcase.svelte';
+    import experienceItems from '$lib/contents/experience.json';
 </script>
-
-<svelte:head>
-    <title>RJM - Experience</title>
-</svelte:head>
 
 <Navbar/>
 
-<h1 class="text-4xl text-center mt-20">Experience</h1>
+<Showcase title="Experience" items={experienceItems.items} imageDirectory="experience"/>

@@ -1,3 +1,48 @@
 {
-    
+    "items": [
+        {
+            "title": "National Champion",
+            "image": "wsi.png",
+            "link": "",
+            "shortDescription": "WorldSkills Ireland 2024 Cloud Computing",
+            "description": [
+                "From the 25th - 27th of September I competed in WorldSkills Ireland's Cloud Computing competition sponsored by AWS.",
+                "Over three days I completed a series of challenges that tested my knowledge of AWS services and my ability to deploy and manage cloud infrastructure.",
+                "At the end, I won the competition and was awarded the title of Cloud Computing Champion and recieved a Silver Medal from the Department of Further and Higher Education."
+            ]
+        },
+        {
+            "title": "VT/STAR Student",
+            "image": "sap.png",
+            "link": "",
+            "shortDescription": "SAP",
+            "description": [
+                "In May I started my 2-year VT/STAR programme with SAP. This programme involves 2 development rotations, one between my second and third year of college and the other during the third year internship period.",
+                "In my first rotation I wrote production code for SAP's state-of-the-art SAP Analytics Cloud product. My work added more functionality to Data Analyzer, a tool that allows users to create and manipulate data models.",
+                "The VT/STAR programme in Ireland only accepts 20 students per year, and I am delighted to be one of them."
+            ]
+        },
+        {
+            "title": "Sysadmin",
+            "image": "cspp.svg",
+            "link": "https://cspp.ie/",
+            "shortDescription": "Computer Science Society",
+            "description": [
+                "In April 2024, I was elected as the Sysadmin of the Computer Science Society (CS++) in TU Dublin. This was following my previous year as Chairperson, and year before that as First Year Rep.",
+                "When I was Chair, I restarted the technical aspect of CS++, which went offline back in 2020. I provisioned our first server, and began to restore on-premises hardware, working with the University's IT department to get connected and ensure security & GDPR best-practices.",
+                "For the next two years, I will be the Chief System Architect for the society, and lead developer of multiple services."
+            ]
+        },
+        {
+            "title": "President",
+            "image": "societies.jpg",
+            "link": "",
+            "shortDescription": "TU Dublin Societies",
+            "description": [
+                "In April 2024, I was elected as President of the TU Dublin Societies Forum. This followed my year of Grangegorman Chairperson.",
+                "As President, I chair all Societies Forums, represent Societies to the University, Students' Union, and external Organisations, and work with the University to ensure Societies are supported and have the resources they need.",
+                "Since I joined the Societies Forum Executive in 2023, I created the Constitution Template, increased access to spaces in TU Dublin and built strong reputations with the University Faculty and Administration."
+            ]
+        }
+    ]
 }
