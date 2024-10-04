@@ -7,11 +7,9 @@
     export let link: string;
     export let subtitle: string;
     export let description: string[];
-
-    console.log(title, image, link, subtitle, description);
 </script>
 
-<Card.Root class="flex-shrink-0 m-5 min-w-[16rem] max-w-[30rem]">
+<Card.Root class="m-5 min-w-[16rem] max-w-[30rem] h-full">
     <Card.Header class="flex align-center items-center">
         {#if image !== ""}
             <img src={image} alt={title} class="w-20 h-20 object-cover"/>
@@ -32,7 +30,7 @@
     </Card.Header>
     <Card.Content>
         {#each description as line}
-            <p class="m-1">{line}</p>
+            <p class="m-2">{line}</p>
         {/each}
     </Card.Content>
 </Card.Root>

@@ -10,18 +10,18 @@
 
 <Navbar/>
 
-<section>
+<section class="h-screen overflow-scroll">
     <h1 class="text-4xl text-center mt-20">Portfolio</h1>
 
-    <div class="flex w-full h-full overflow-x-scroll gap-x-10 xs:gap-y-10 xs:flex-col xs:overflow-x-hidden">
-        {#each portfolioItems.projects as item}
-            <Showcase
-                title={item.title}
-                image={"portfolio/" + item.image}
-                link={item.link}
-                subtitle={item.shortDescription}
-                description={item.description}
-            />
-        {/each}
+    <div class="w-full h-max grid grid-cols-1 gap-6 lg:grid-cols-2">
+      {#each portfolioItems.projects as item}
+        <Showcase
+          title={item.title}
+          image={"portfolio/" + item.image}
+          link={item.link}
+          subtitle={item.shortDescription}
+          description={item.description}
+        />
+      {/each}
     </div>
 </section>

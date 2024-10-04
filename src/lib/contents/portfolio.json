@@ -18,7 +18,7 @@
             "shortDescription": "Get stars for completing tasks",
             "description": [
                 "As a joke, I created this app where my friends would compete for stars, inspired by the concept of a 'star board' from Primary School.",
-                "I would list simple tasks such as 'Draw the interior of your fridge', or 'Make a word with the spice jars in your kitchen' and award stars based on how well they completed the task.",
+                "I would list simple tasks such as 'Draw the interior of your fridge in MS Paint', or 'Make a word with the spice jars in your kitchen' and award stars based on how well they completed the task.",
                 "I wrote the app in SvelteKit, using IBM's Carbon Design System for the UI. It connects to a PostgreSQL database through the Prisma ORM."
             ]
         },
