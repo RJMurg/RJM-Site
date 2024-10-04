@@ -2,7 +2,7 @@
     "projects": [
         {
             "title": "SIM",
-            "image": "sim.png",
+            "image": "",
             "link": "https://github.com/rjmurg/sim",
             "shortDescription": "At-a-glance date checking for shops",
             "description": [
@@ -13,7 +13,7 @@
         },
         {
             "title": "Starboard",
-            "image": "starboard.png",
+            "image": "starboard.webp",
             "link": "https://github.com/rjmurg/friendconstellation",
             "shortDescription": "Get stars for completing tasks",
             "description": [
@@ -35,7 +35,7 @@
         },
         {
             "title": "Clerk",
-            "image": "clerk.png",
+            "image": "clerk.svg",
             "link": "https://github.com/cs-soc-tudublin/clerk",
             "shortDescription": "Obsidian plugin for writing documents faster",
             "description": [
