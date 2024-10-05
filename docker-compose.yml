@@ -5,7 +5,7 @@ services:
       - "traefik.http.routers.rjm.rule=Host(`rjm.ie`)"
       - "traefik.http.services.rjm.loadbalancer.server.port=80"
       - "traefik.http.routers.rjm.entrypoints=websecure"
-      - "external-service=true"
+      - "external-service"
     build: .
     networks:
       - traefik-external

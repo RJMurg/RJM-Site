@@ -1,2 +1,15 @@
 .git
+.gitignore
+node_modules
+.DS_Store
+Dockerfile
+README.md
+LICENSE.md
+*.test.ts
+.prettierignore
+.prettierrc
+eslint.config.js
+.npmrc
+docker-compose.yml
 .github
+.svelte-kit
