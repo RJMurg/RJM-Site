@@ -12,9 +12,9 @@
 <section id="hero" class="flex flex-col w-screen h-screen overflow-hidden justify-center items-center">
     <div class="flex justify-center items-center xs:max-lg:pb-20">
         <div class="flex items-left flex-col">
-            <h1 class="text-6xl xs:max-lg:text-4xl font-bold pl-10">Ruán Murgatroyd</h1>
+            <h1 class="text-6xl xs:max-md:text-4xl font-bold pl-10">Ruán Murgatroyd</h1>
             <div class="subtitle-container pl-10" style="height: 4rem">
-                <h2 class="text-4xl xs:max-lg:text-2xl font-medium">{subtitle}</h2>
+                <h2 class="text-4xl xs:max-md:text-2xl font-medium">{subtitle}</h2>
                 <span class="flex flex-row">
                     <Button href="https://github.com/rjmurg" class="mt-5 mr-5">
                         <Github class="mr-2 h-4 w-4" />
@@ -30,7 +30,7 @@
         <img src="headshot.webp" alt="Ruán Murgatroyd" class="rounded-full w-3/12 h-3/12 p-10 xs:max-lg:p-0 xs:max-lg:mx-5" />
     </div>
 
-    <div class="flex flex-row xs:max-sm:flex-col justify-around items-center w-screen text-4xl pt-10 text-gray-400 xs:grid xs:grid-cols-2 xs:text-center">
+    <div class="flex flex-row xs:max-sm:flex-col justify-around items-center w-screen text-4xl pt-10 text-gray-400 xs:max-md:grid xs:max-md:grid-cols-2 xs:max-md:text-center">
         {#each Routes.routes as route}
             {#if route.name !== "Home"}
                 <a href={route.path} class="hover:underline hover:text-white transition-all duration-200 ease-linear xs:m-2">{route.name}</a>
