@@ -12,7 +12,7 @@
 <section class="h-screen overflow-scroll">
 	<h1 class="mt-20 text-center text-4xl">{title}</h1>
 
-	<div class="h-max w-full">
+	<div class="mb-10">
 		{#each categories as category}
 			<h2 class="mt-20 text-center text-2xl">{category.title}</h2>
 			<div class="grid grid-cols-1 gap-6 lg:grid-cols-2 xl:grid-cols-3">
