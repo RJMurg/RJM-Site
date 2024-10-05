@@ -30,7 +30,7 @@
         <img src="headshot.webp" alt="Ruán Murgatroyd" class="rounded-full w-3/12 h-3/12 p-10 xs:max-lg:p-0 xs:max-lg:mx-5" />
     </div>
 
-    <div class="flex flex-row xs:max-sm:flex-col justify-around items-center w-screen text-4xl pt-10 text-gray-400 xs:max-md:grid xs:max-md:grid-cols-2 xs:max-md:text-center">
+    <div class="flex flex-row xs:max-sm:flex-col justify-around items-center w-screen text-4xl pt-10 text-gray-400">
         {#each Routes.routes as route}
             {#if route.name !== "Home"}
                 <a href={route.path} class="hover:underline hover:text-white transition-all duration-200 ease-linear xs:m-2">{route.name}</a>
