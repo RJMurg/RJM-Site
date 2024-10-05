@@ -1,17 +1,16 @@
 services:
-  app:
+  web:
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.rjm-site.rule=Host(`rjm.ie`)"
-      - "traefik.http.services.rjm-site.loadbalancer.server.port=3000"
-      - "traefik.http.routers.rjm-site.entrypoints=websecure"
-      - "traefik.http.routers.rjm-site.tls=true"
-      - "traefik.http.routers.rjm-site.tls.certresolver=externalresolver"
-      - "external-services"
+      - "traefik.http.routers.rjm.rule=Host(`rjm.ie`)"
+      - "traefik.http.services.rjm.loadbalancer.server.port=80"
+      - "traefik.http.routers.rjm.entrypoints=websecure"
+      - "external-service"
     build: .
-    container_name: rjm-site
     networks:
       - traefik-external
+    container_name: "rjm-site"
+    restart: always
 
 networks:
   traefik-external:
