@@ -15,10 +15,6 @@
         {
             "path": "/experience",
             "name": "Experience"
-        },
-        {
-            "path": "/contact",
-            "name": "Contact"
         }
     ]
 }
