@@ -30,11 +30,11 @@
         <img src="headshot.webp" alt="Ruán Murgatroyd" class="rounded-full w-3/12 h-3/12 p-10 xs:max-lg:p-0 xs:max-lg:mx-5" />
     </div>
 
-    <h2 class="text-6xl xs:text-4xl">Find out more about</h2>
-    <div class="flex flex-row xs:max-sm:flex-col justify-around items-center w-screen text-4xl pt-10 text-gray-400">
+    <h2 class="text-6xl xs:text-4xl pt-10">Find out more about</h2>
+    <div class="flex flex-row xs:max-sm:flex-col justify-center items-center w-screen text-4xl p-2 text-gray-400 text-center">
         {#each Routes.routes as route}
             {#if route.name !== "Home"}
-                <a href={route.path} class="hover:underline hover:text-white transition-all duration-200 ease-linear xs:m-2">My {route.name}</a>
+                <a href={route.path} class="hover:underline hover:text-white transition-all duration-200 ease-linear xs:m-2 text-center basis-1/3">My {route.name}</a>
             {/if}
         {/each}
     </div>
