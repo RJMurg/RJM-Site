@@ -16,11 +16,11 @@
             <div class="subtitle-container pl-10" style="height: 4rem">
                 <h2 class="text-4xl xs:max-md:text-2xl font-medium">{subtitle}</h2>
                 <span class="flex flex-row">
-                    <Button href="https://github.com/rjmurg" class="mt-5 mr-5">
+                    <Button href="https://github.com/rjmurg"  target="_blank" class="mt-5 mr-5">
                         <Github class="mr-2 h-4 w-4" />
                         GitHub
                     </Button>
-                    <Button href="https://www.linkedin.com/in/ruan-murgatroyd/" variant="outline" class="mt-5">
+                    <Button href="https://www.linkedin.com/in/ruan-murgatroyd/"  target="_blank" variant="outline" class="mt-5">
                         <Linkedin class="mr-2 h-4 w-4" />
                         LinkedIn
                     </Button>

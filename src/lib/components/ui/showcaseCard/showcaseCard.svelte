@@ -18,7 +18,7 @@
         {/if}
 
         {#if link !== ""}
-            <a href={link} class="flex flex-row items-center hover:text-gray-400">
+            <a href={link} target="_blank" class="flex flex-row items-center hover:text-gray-400">
                 <Card.Title class="text-bold text-4xl text-center">{title}</Card.Title>
                 <ExternalLink class="w-6 h-6 m-0 ml-2 p-0"/>
             </a>
