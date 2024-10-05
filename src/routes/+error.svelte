@@ -1,31 +1,30 @@
 <script lang="ts">
-    import { ArrowLeft } from "lucide-svelte";
-    import { Button } from "$lib/components/ui/button";
-	import { error } from "@sveltejs/kit";
+	import { ArrowLeft } from 'lucide-svelte';
+	import { Button } from '$lib/components/ui/button';
 
-    const funnyPhrases = [
-        "Please try the soup",
-        "Stay awesome!",
-        "You're doing great!",
-        "Send me a message!",
-        "You've got this!"
-    ];
+	const funnyPhrases = [
+		'Please try the soup',
+		'Stay awesome!',
+		"You're doing great!",
+		'Send me a message!',
+		"You've got this!"
+	];
 
-    const randomPhrase = funnyPhrases[Math.floor(Math.random() * funnyPhrases.length)];
+	const randomPhrase = funnyPhrases[Math.floor(Math.random() * funnyPhrases.length)];
 </script>
 
 <svelte:head>
-    <title>Whoops!</title>
+	<title>Whoops!</title>
 </svelte:head>
 
-<div class="flex flex-col items-center justify-center h-screen">
-    <h1 class="text-6xl font-bold p-5">An error has occured</h1>
+<div class="flex h-screen flex-col items-center justify-center">
+	<h1 class="p-5 text-6xl font-bold">An error has occured</h1>
 
-    <p class="text-2xl font-medium mt-5 text-center">While you're here:</p>
-    <p class="text-2xl font-light mt-2 text-center">{randomPhrase}</p>
+	<p class="mt-5 text-center text-2xl font-medium">While you're here:</p>
+	<p class="mt-2 text-center text-2xl font-light">{randomPhrase}</p>
 
-    <Button href="/" class="mt-5" variant="outline">
-        <ArrowLeft class="mr-2 h-4 w-4" />
-        Go back home
-    </Button>
+	<Button href="/" class="mt-5" variant="outline">
+		<ArrowLeft class="mr-2 h-4 w-4" />
+		Go back home
+	</Button>
 </div>

@@ -1,9 +1,9 @@
 <script lang="ts">
-    import Navbar from '$lib/components/ui/navbar/navbar.svelte';
-    import Showcase from '$lib/components/ui/showcase/showcase.svelte';
-    import experienceItems from '$lib/contents/experience.json';
+	import Navbar from '$lib/components/ui/navbar/navbar.svelte';
+	import Showcase from '$lib/components/ui/showcase/showcase.svelte';
+	import experienceItems from '$lib/contents/experience.json';
 </script>
 
-<Navbar/>
+<Navbar />
 
-<Showcase title="Experience" categories={experienceItems.categories} imageDirectory="experience"/>
+<Showcase title="Experience" categories={experienceItems.categories} imageDirectory="experience" />
