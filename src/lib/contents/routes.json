@@ -5,10 +5,6 @@
             "name": "Home"
         },
         {
-            "path": "/about",
-            "name": "About"
-        },
-        {
             "path": "https://blog.rjm.ie",
             "name": "Blog"
         },

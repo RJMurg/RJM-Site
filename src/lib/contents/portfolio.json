@@ -1,47 +1,120 @@
 {
-    "items": [
+    "categories": [
         {
-            "title": "SIM",
-            "image": "",
-            "link": "https://github.com/rjmurg/sim",
-            "shortDescription": "At-a-glance date checking for shops",
-            "description": [
-                "I created this app while working in a small local shop.",
-                "With the goal of knowing what stock to take off the shelves at a glance, I created the proof of concept over a weekend.",
-                "SIM was then rewritten in SvelteKit and had more features added after discussion with management."
+            "title": "Technical Projects",
+            "items": [
+                {
+                    "title": "SIM",
+                    "image": "",
+                    "link": "https://github.com/rjmurg/sim",
+                    "shortDescription": "At-a-glance date checking for shops",
+                    "description": [
+                        "Created while working at a local shop",
+                        "MVP created in two days",
+                        "Allows at-a-glance list of stock that needs to be wasted",
+                        "Stock added to system when placed on the shelf",
+                        "Rewritten in SvelteKit for better performance"
+                    ]
+                },
+                {
+                    "title": "BitHunt",
+                    "image": "bithunt.png",
+                    "link": "https://github.com/cs-soc-tudublin/bithunt",
+                    "shortDescription": "AR Treasure Hunts for TU Dublin Students",
+                    "description": [
+                        "QR codes hidden around the campus during Freshers Week",
+                        "Students scan codes and win a prize when they find them all",
+                        "Allowed First Years to get to know the campus",
+                        "Written in SvelteKit with direct connection to PostgreSQL"
+                    ]
+                },
+                {
+                    "title": "Starboard",
+                    "image": "starboard.webp",
+                    "link": "https://github.com/rjmurg/friendconstellation",
+                    "shortDescription": "Get stars for completing tasks",
+                    "description": [
+                        "Based off of the 'Starboard' system from Primary Schools",
+                        "Competitors would recieve stars for completing silly tasks",
+                        "Written in SvelteKit with Carbon Design System",
+                        "Prisma ORM used to connect to PostgreSQL database",
+                        "Designed for containerisation"
+                    ]
+                },
+                {
+                    "title": "Clerk",
+                    "image": "clerk.svg",
+                    "link": "https://github.com/cs-soc-tudublin/clerk",
+                    "shortDescription": "Obsidian plugin for writing documents faster",
+                    "description": [
+                        "Improves creation of markdown files for the TU Dublin Computer Science Society",
+                        "Creates 'Frontmatter' for docs, meeting minutes and the blog",
+                        "Written in TypeScript"
+                    ]
+                },
+                {
+                    "title": "InterestEngine",
+                    "image": "interestengine.png",
+                    "link": "https://github.com/rjmurg/interestengine",
+                    "shortDescription": "Hand-rolled Web Form for event planning",
+                    "description": [
+                        "Created to gather interest for the TU DubLAN LAN Party",
+                        "Anonymously collects data for the committee to focus on what the students want",
+                        "Written in SvelteKit using Prisma ORM to connect to PostgreSQL",
+                        "Designed for containerisation"
+                    ]
+                },
+                {
+                    "title": "TrackEngine",
+                    "image": "",
+                    "link": "https://github.com/irishtnt/trackengine",
+                    "shortDescription": "Improved Realtime API for Irish Rail",
+                    "description": [
+                        "First attempt at API",
+                        "Collects & pre-parses XML data from Irish Rail's Realtime API",
+                        "Follows RESTful principles",
+                        "Written in Node.js with Express"
+                    ]
+                }
             ]
         },
         {
-            "title": "Starboard",
-            "image": "starboard.webp",
-            "link": "https://github.com/rjmurg/friendconstellation",
-            "shortDescription": "Get stars for completing tasks",
-            "description": [
-                "As a joke, I created this app where my friends would compete for stars, inspired by the concept of a 'star board' from Primary School.",
-                "I would list simple tasks such as 'Draw the interior of your fridge in MS Paint', or 'Make a word with the spice jars in your kitchen' and award stars based on how well they completed the task.",
-                "I wrote the app in SvelteKit, using IBM's Carbon Design System for the UI. It connects to a PostgreSQL database through the Prisma ORM."
-            ]
-        },
-        {
-            "title": "BitHunt",
-            "image": "bithunt.png",
-            "link": "https://github.com/cs-soc-tudublin/bithunt",
-            "shortDescription": "AR Treasure Hunts for TU Dublin Students",
-            "description": [
-                "During every Student Life festival, we would hide QR codes around the campus for students to scan and solve puzzles.",
-                "This allowed First Year students to get to know the campus and increase society membership!",
-                "I wrote the app in SvelteKit, and connected directly to a PostgreSQL database."
-            ]
-        },
-        {
-            "title": "Clerk",
-            "image": "clerk.svg",
-            "link": "https://github.com/cs-soc-tudublin/clerk",
-            "shortDescription": "Obsidian plugin for writing documents faster",
-            "description": [
-                "I created Clerk to make it easier to write the Sysadmin Docs, Blog posts and meeting minutes easier for the TU Dublin Computer Science Society.",
-                "It creates correctly populates the 'frontmatter' metadata for markdown files which includes things like author, tags, meeting attendees, etc.",
-                "Clerk was written in TypeScript and uses the ObsidianMD API to interact with the markdown files."
+            "title": "Other Projects",
+            "items": [
+                {
+                    "title": "DOAF 2023",
+                    "image": "dyt.webp",
+                    "link": "https://dublinyouththeatre.com/productions/debut-one-act-festival-2023/",
+                    "shortDescription": "Debut One-Act Festival",
+                    "description": [
+                        "Second year as DYT's Lighting Designer",
+                        "Successfuly lit 3 consecutive one-act shows using the same rig",
+                        "Stage Wash was split into sections to improve variability between shows and multiple specials",
+                        "Co-facilitated DYT's first ever member-led workshop, 'Lighting for Theatre'"
+                    ]
+                },
+                {
+                    "title": "MOAF 2022",
+                    "image": "dyt.webp",
+                    "link": "https://dublinyouththeatre.com/productions/members-one-act-festival-2022/",
+                    "shortDescription": "Member's One-Act Festival",
+                    "description": [
+                        "First year as DYT's Lighting Designer",
+                        "Lit 2 consecutive one-act shows using the same rig",
+                        "Use of general wash allowed multiple specials to be used for each show"
+                    ]
+                },
+                {
+                    "title": "The Spanish Tragedy",
+                    "image": "dyt.webp",
+                    "link": "https://dublinyouththeatre.com/productions/the-spanish-tragedy/",
+                    "shortDescription": "DYT's 2022 Big Show",
+                    "description": [
+                        "Performed in Project Arts Centre",
+                        "Worked with Sarah-Jane Shiels and Síofra Nic Liam",
+                        "First show after certifying with Stage Pass"
+                    ]
+                }
             ]
         }
     ]

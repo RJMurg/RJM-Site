@@ -2,6 +2,7 @@
     import { Button } from '$lib/components/ui/button';
     import { Linkedin, Github } from 'lucide-svelte';
     import Routes from '$lib/contents/routes.json';
+    export let subtitle: string;
 </script>
 
 <svelte:head>
@@ -13,7 +14,8 @@
         <div class="flex items-left flex-col">
             <h1 class="text-6xl xs:max-lg:text-4xl font-bold pl-10">Ruán Murgatroyd</h1>
             <div class="subtitle-container pl-10" style="height: 4rem">
-                <h2 class="text-4xl xs:max-lg:text-2xl font-light">Computer Science Student</h2>
+                <h2 class="text-4xl xs:max-lg:text-2xl font-medium">{subtitle}</h2>
+                <h2 class="text-2xl xs:max-lg:text-lg font-thin italic">Find out more...</h2>
                 <span class="flex flex-row">
                     <Button href="https://github.com/rjmurg" class="mt-5 mr-5">
                         <Github class="mr-2 h-4 w-4" />

@@ -6,7 +6,7 @@
     export let image: string;
     export let link: string;
     export let subtitle: string;
-    export let description: string[];
+    export let description: [string];
 </script>
 
 <Card.Root class="m-5 min-w-[16rem] max-w-[30rem] h-full">
@@ -29,8 +29,10 @@
         <Card.Description>{subtitle}</Card.Description>
     </Card.Header>
     <Card.Content>
+        <ul class="list-disc">
         {#each description as line}
-            <p class="m-2">{line}</p>
+            <li class="m-2">{line}</li>
         {/each}
+        </ul>
     </Card.Content>
 </Card.Root>

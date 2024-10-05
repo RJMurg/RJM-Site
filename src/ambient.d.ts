@@ -1,11 +1,18 @@
 type showcaseItems = [
-    items: [showcaseItem]
+    categories: [categories]
 ]
+
+type categories = [category]
+
+type category = {
+    title: string,
+    items: [showcaseItem]
+}
 
 type showcaseItem = {
     title: string,
     image: string,
     link: string,
     shortDescription: string,
-    description: [string, string, string]
+    description: [string]
 }

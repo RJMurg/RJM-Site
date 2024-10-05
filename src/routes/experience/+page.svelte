@@ -6,4 +6,4 @@
 
 <Navbar/>
 
-<Showcase title="Experience" items={experienceItems.items} imageDirectory="experience"/>
+<Showcase title="Experience" categories={experienceItems.categories} imageDirectory="experience"/>

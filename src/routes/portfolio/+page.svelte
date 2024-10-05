@@ -6,4 +6,4 @@
 
 <Navbar/>
 
-<Showcase title="Portfolio" items={portfolioItems.items} imageDirectory="portfolio"/>
+<Showcase title="Portfolio" categories={portfolioItems.categories} imageDirectory="portfolio"/>
