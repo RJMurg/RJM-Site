@@ -13,7 +13,6 @@
 
 <section class="h-screen w-screen overflow-scroll flex align-center items-center flex-col">
     <h1 class="text-4xl text-center mt-20 font-bold">Contact Me!</h1>
-    <h2 class="text-2xl text-center mt-5">Want to learn more, or have an exciting opportunity?</h2>
 
     <div class="w-full h-max flex align-center items-center flex-col">
         <Card.Root class="m-5 min-w-[16rem] max-w-[30rem] h-full">
@@ -23,20 +22,20 @@
             </Card.Header>
             <Card.Content>
                 <ul class="grid grid-cols-2">
-                    <Button href="https://linkedin.com/in/ruan-murgatroyd" variant="secondary" class="m-5">
-                        <Linkedin class="w-6 h-6 mr-5"/>
+                    <Button href="https://linkedin.com/in/ruan-murgatroyd" variant="secondary" class="lg:m-5 xs:m-1">
+                        <Linkedin class="w-6 h-6 xs:mr-1 lg:mr-5"/>
                         LinkedIn
                     </Button>
-                    <Button href="https://github.com/rjmurg" variant="secondary" class="m-5">
-                        <Github class="w-6 h-6 mr-5"/>
+                    <Button href="https://github.com/rjmurg" variant="secondary" class="lg:m-5 xs:m-1">
+                        <Github class="w-6 h-6 xs:mr-1 lg:mr-5"/>
                         GitHub
                     </Button>
-                    <Button href="https://instagram.com/rjmurg" variant="secondary" class="m-5">
-                        <Instagram class="w-6 h-6 mr-5"/>
+                    <Button href="https://instagram.com/rjmurg" variant="secondary" class="lg:m-5 xs:m-1">
+                        <Instagram class="w-6 h-6 xs:mr-1 lg:mr-5"/>
                         Instagram
                     </Button>
-                    <Button href="https://twitter.com/rjmurg" variant="secondary" class="m-5">
-                        <Twitter class="w-6 h-6 mr-5"/>
+                    <Button href="https://twitter.com/rjmurg" variant="secondary" class="lg:m-5 xs:m-1">
+                        <Twitter class="w-6 h-6 xs:mr-1 lg:mr-5"/>
                         Twitter
                     </Button>
                 </ul>

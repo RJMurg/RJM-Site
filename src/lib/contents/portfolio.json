@@ -54,7 +54,7 @@
                 },
                 {
                     "title": "InterestEngine",
-                    "image": "interestengine.png",
+                    "image": "",
                     "link": "https://github.com/rjmurg/interestengine",
                     "shortDescription": "Hand-rolled Web Form for event planning",
                     "description": [
