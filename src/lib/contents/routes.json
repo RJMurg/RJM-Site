@@ -15,6 +15,10 @@
 		{
 			"path": "/experience",
 			"name": "Experience"
+		},
+		{
+			"path": "https://status.rjm.ie",
+			"name": "Status"
 		}
 	]
 }
