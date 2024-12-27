@@ -36,7 +36,7 @@
 					"description": [
 						"Based off of the 'Starboard' system from Primary Schools",
 						"Competitors would receive stars for completing silly tasks",
-						"Written in SvelteKit with Carbon Design System",
+						"Written in SvelteKit with TailwindCSS and ShadCN",
 						"Prisma ORM used to connect to PostgreSQL database",
 						"Designed for containerisation"
 					]

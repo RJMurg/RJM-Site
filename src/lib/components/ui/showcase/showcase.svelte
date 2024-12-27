@@ -9,7 +9,7 @@
 	<title>RJM - {title}</title>
 </svelte:head>
 
-<section class="h-screen overflow-scroll">
+<section class="overflow-visible">
 	<h1 class="mt-20 text-center text-4xl">{title}</h1>
 
 	<div class="mb-10">

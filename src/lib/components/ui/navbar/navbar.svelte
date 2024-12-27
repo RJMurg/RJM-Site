@@ -29,8 +29,9 @@
 				<a
 					href={route.path}
 					class="transition-all duration-200 ease-linear hover:text-white hover:underline"
-					>{route.name}</a
-				>
+					>
+					{route.name}
+				</a>
 			</li>
 		{/each}
 	</ul>
