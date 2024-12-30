@@ -2,7 +2,8 @@
 FROM node:18-alpine AS build
 WORKDIR /app
 COPY . .
-RUN npm ci && npm run build
+RUN npm ci
+RUN npm run build
 
 # Step 2: Production stage
 FROM node:18-alpine
