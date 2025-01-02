@@ -9,7 +9,7 @@ FROM node:18-alpine
 WORKDIR /app
 COPY --from=build /app/static ./static
 COPY --from=build /app/package*.json ./
-RUN npm ci --production --ignore-scripts
+RUN npm ci --omit=dev --ignore-scripts
 COPY --from=build /app/build ./
 
 HEALTHCHECK --interval=30s --timeout=10s --start-period=10s --start-interval=3s \
