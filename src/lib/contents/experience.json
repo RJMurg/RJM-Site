@@ -72,29 +72,29 @@
 						"Won tickets to IRISSCON CTF 2022 and placed second against industry professionals"
 					]
 				},
-                {
-                    "title": "Team Member",
-                    "image": "ecsc.webp",
-                    "link": "",
-                    "shortDescription": "European Cyber Security Challenge",
-                    "description": [
-                        "October 2023 in Hamar, Norway",
-                        "3-day competition with jeopardy-style and attack-defense challenges",
-                        "Senior reserve for Team Ireland"
-                    ]
-                },
-                {
-                    "title": "Second Place Winner",
-                    "image": "aisac.jpeg",
-                    "link": "",
-                    "shortDescription": "Aviation ISAC Cybersecurity Challenge",
-                    "description": [
-                        "August 2023 in Maldron Blue Hotel, Dublin",
-                        "Team of 4 placed second out of 10 other teams",
-                        "Challenges involved hacking baggage handling systems, air traffic control systems, drones, engine controllers, etc.",
-                        "Won a cash prize"
-                    ]
-                },
+				{
+					"title": "Team Member",
+					"image": "ecsc.webp",
+					"link": "",
+					"shortDescription": "European Cyber Security Challenge",
+					"description": [
+						"October 2023 in Hamar, Norway",
+						"3-day competition with jeopardy-style and attack-defense challenges",
+						"Senior reserve for Team Ireland"
+					]
+				},
+				{
+					"title": "Second Place Winner",
+					"image": "aisac.jpeg",
+					"link": "",
+					"shortDescription": "Aviation ISAC Cybersecurity Challenge",
+					"description": [
+						"August 2023 in Maldron Blue Hotel, Dublin",
+						"Team of 4 placed second out of 10 other teams",
+						"Challenges involved hacking baggage handling systems, air traffic control systems, drones, engine controllers, etc.",
+						"Won a cash prize"
+					]
+				},
 				{
 					"title": "Competitor",
 					"image": "growthhub.webp",

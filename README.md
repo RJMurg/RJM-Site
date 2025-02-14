@@ -34,16 +34,22 @@ docker run -d -p 3000:3000 [image-name]
 This will start the container in detached mode and expose the site on port `3000`.
 
 ## Deployment
+
 This site is served through a Traefik reverse proxy, and is deployed using Docker. To deploy the site, you can run the following command:
 
 ```bash
 docker-compose up -d
 ```
+
 This will build the Docker image and start the container in detached mode.
 The labels included in the `docker-compose.yml` file are used by Traefik to route traffic to the container.
 
 Changes to the site are deployed automatically.
 
 ## License
+
 This site is licensed under the [GNU General Public License v3.0](LICENSE.md).
+
+```
+
 ```
