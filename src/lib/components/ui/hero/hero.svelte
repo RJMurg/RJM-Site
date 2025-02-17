@@ -20,9 +20,11 @@
 			class="aspect-square rounded-full p-10 xs:w-2/3 sm:w-1/2 md:w-3/12"
 		/>
 		<div class="items-left flex flex-col">
-			<h1 class="pl-0 text-4xl font-bold md:pl-10 md:text-6xl">Ruán Murgatroyd</h1>
+			<h1 class="pl-0 text-center text-4xl font-bold md:pl-10 md:text-left md:text-6xl">
+				Ruán Murgatroyd
+			</h1>
 			<div class="subtitle-container pl-0 md:pl-10" style="height: 4rem">
-				<h2 class="text-2xl font-medium md:text-4xl">{subtitle}</h2>
+				<h2 class="text-center text-2xl font-medium md:text-left md:text-4xl">{subtitle}</h2>
 				<span class="flex flex-row items-center justify-center md:justify-start">
 					<Button href="https://github.com/rjmurg" target="_blank" class="mr-5 mt-5">
 						<Github class="mr-2 h-4 w-4" />
