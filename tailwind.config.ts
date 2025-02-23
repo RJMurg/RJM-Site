@@ -58,8 +58,11 @@ const config: Config = {
 			},
 			fontFamily: {
 				sans: ['Montserrat', ...fontFamily.sans],
-				roboto: ['Roboto', ...fontFamily.sans],
-				mono: ['JetBrains Mono', ...fontFamily.mono]
+				mono: ['JetBrains Mono', ...fontFamily.mono],
+				philosopher: ['Philosopher', ...fontFamily.serif]
+			},
+			fontSize: {
+				'10xl': '10rem'
 			},
 			screens: {
 				xs: '200px'
