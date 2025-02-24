@@ -5,7 +5,12 @@ import colors from 'tailwindcss/colors';
 const config: Config = {
 	darkMode: ['class'],
 	content: ['./src/**/*.{html,js,svelte,ts}'],
-	safelist: ['dark'],
+	safelist: [
+		'dark',
+		{
+			pattern: /^bg-/ // bg-*
+		}
+	],
 	theme: {
 		container: {
 			center: true,
