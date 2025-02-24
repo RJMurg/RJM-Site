@@ -5,7 +5,12 @@ import colors from 'tailwindcss/colors';
 const config: Config = {
 	darkMode: ['class'],
 	content: ['./src/**/*.{html,js,svelte,ts}'],
-	safelist: ['dark'],
+	safelist: [
+		'dark',
+		{
+			pattern: /^bg-/ // bg-*
+		}
+	],
 	theme: {
 		container: {
 			center: true,
@@ -58,8 +63,11 @@ const config: Config = {
 			},
 			fontFamily: {
 				sans: ['Montserrat', ...fontFamily.sans],
-				roboto: ['Roboto', ...fontFamily.sans],
-				mono: ['JetBrains Mono', ...fontFamily.mono]
+				mono: ['JetBrains Mono', ...fontFamily.mono],
+				philosopher: ['Philosopher', ...fontFamily.serif]
+			},
+			fontSize: {
+				'10xl': '10rem'
 			},
 			screens: {
 				xs: '200px'

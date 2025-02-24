@@ -14,7 +14,7 @@
 		{#if image !== 'portfolio/'}
 			<img src={image} alt={title} class="h-20 w-20 rounded-full object-cover" />
 		{:else}
-			<img src="favicon.png" alt="Placeholder" class="h-20 w-20 object-cover" />
+			<img src="white.svg" alt="Placeholder" class="h-20 w-20 object-cover" />
 		{/if}
 
 		{#if link !== ''}
