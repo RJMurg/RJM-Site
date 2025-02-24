@@ -20,7 +20,7 @@
 
 <div class="h-screen w-screen">
 	<div class="flex h-full flex-col items-start justify-end bg-red-500">
-		<h1 class="text-8xl md:-pl-32 md:-ml-32 md:mb-32 md:-rotate-90 md:text-10xl font-bold">Fonts</h1>
+		<h1 class="text-8xl md:-pl-32 md:-ml-32 md:mb-32 xl:mb-48 md:-rotate-90 md:text-10xl font-bold">Fonts</h1>
 	</div>
 </div>
 
@@ -212,7 +212,7 @@
 
 <div class="h-screen w-screen">
 	<div class="flex h-full flex-col items-start justify-end bg-red-500">
-		<h1 class="text-7xl md:-pl-32 md:-ml-32 md:mb-32 md:-rotate-90 md:text-10xl font-bold">Colours</h1>
+		<h1 class="text-7xl md:-pl-32 md:-ml-48 md:mb-32 xl:mb-64 md:-rotate-90 md:text-10xl font-bold">Colours</h1>
 	</div>
 </div>
 
@@ -321,7 +321,7 @@
 
 <div class="h-screen w-screen">
 	<div class="flex h-full flex-col items-start justify-end bg-red-500">
-		<h1 class="text-8xl mb-4 md:-pl-32 md:-ml-32 md:mb-32 md:-rotate-90 md:text-10xl font-bold">Logos</h1>
+		<h1 class="text-8xl mb-4 md:-pl-32 md:-ml-32 md:mb-32 xl:mb-48 md:-rotate-90 md:text-10xl font-bold">Logos</h1>
 	</div>
 </div>
 
