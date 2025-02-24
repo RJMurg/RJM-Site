@@ -3,6 +3,10 @@
 </script>
 
 <svelte:head>
+    <title>
+        RJM PrimaryStyle
+    </title>
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://rjm.ie/" />
