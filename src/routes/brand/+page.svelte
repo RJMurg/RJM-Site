@@ -4,31 +4,14 @@
 
 <svelte:head>
     <title>
-        RJM PrimaryStyle
+        PrimaryStyle
     </title>
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://rjm.ie/" />
-    <meta property="og:title" content="PrimaryStyle" />
-    <meta property="og:description" content="Fonts, Colours and Logos for RJM" />
-    <meta property="og:image" content="https://rjm.ie/black.svg" />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://rjm.ie/" />
-    <meta property="twitter:title" content="RJM - PrimaryStyle" />
-    <meta
-        property="twitter:description"
-        content="Fonts, Colours and Logos for RJM"
-    />
-    <meta property="twitter:image" content="https://rjm.ie/black.svg" />
 </svelte:head>
 
 <div class="h-screen w-screen">
 	<div class="flex h-full flex-col items-start justify-end p-5">
-		<h1 class="text-8xl">
-			<span class="font-black">Primary</span><span class="font-medium text-neutral-500">Style</span>
+		<h1 class="text-6xl flex flex-col lg:block lg:text-8xl ">
+			<span class="font-black">Primary</span><span class="text-8xl font-medium text-neutral-500">Style</span>
 		</h1>
 
 		<h2 class="text-lg font-light">v2.0</h2>
@@ -37,11 +20,11 @@
 
 <div class="h-screen w-screen">
 	<div class="flex h-full flex-col items-start justify-end bg-red-500">
-		<h1 class="-pl-32 -ml-32 mb-32 -rotate-90 text-10xl font-bold">Fonts</h1>
+		<h1 class="text-8xl md:-pl-32 md:-ml-32 md:mb-32 md:-rotate-90 md:text-10xl font-bold">Fonts</h1>
 	</div>
 </div>
 
-<div class="font-montserrat h-screen w-screen border-b-4 border-neutral-500">
+<div class="font-montserrat h-screen w-screen border-b-4 border-neutral-900">
 	<div class="m-5 flex h-full flex-col items-start justify-end">
 		<h1 class="mb-10 h-1/2 text-6xl font-bold">Montserrat</h1>
 
@@ -114,7 +97,7 @@
 	</div>
 </div>
 
-<div class="h-screen w-screen border-b-4 border-neutral-500 font-mono">
+<div class="h-screen w-screen border-b-4 border-neutral-900 font-mono">
 	<div class="m-5 flex h-full flex-col items-start justify-end">
 		<h1 class="mb-10 h-1/2 text-6xl font-bold">JetBrains Mono</h1>
 
@@ -229,11 +212,11 @@
 
 <div class="h-screen w-screen">
 	<div class="flex h-full flex-col items-start justify-end bg-red-500">
-		<h1 class="-pl-32 -ml-52 mb-52 -rotate-90 text-10xl font-bold">Colours</h1>
+		<h1 class="text-7xl md:-pl-32 md:-ml-32 md:mb-32 md:-rotate-90 md:text-10xl font-bold">Colours</h1>
 	</div>
 </div>
 
-<div class="h-screen w-screen border-b-4 border-neutral-500">
+<div class="h-screen w-screen border-b-4 border-neutral-900">
 	<div class="m-5 flex h-full flex-col items-start justify-start">
 		<h1 class="mb-10 h-1/2 text-6xl font-bold">Primary Colours</h1>
 
@@ -338,7 +321,7 @@
 
 <div class="h-screen w-screen">
 	<div class="flex h-full flex-col items-start justify-end bg-red-500">
-		<h1 class="-pl-32 -ml-32 mb-32 -rotate-90 text-10xl font-bold">Logos</h1>
+		<h1 class="text-8xl mb-4 md:-pl-32 md:-ml-32 md:mb-32 md:-rotate-90 md:text-10xl font-bold">Logos</h1>
 	</div>
 </div>
 
@@ -346,16 +329,16 @@
 	<div class="m-5 flex h-full flex-col items-start justify-start">
 		<h1 class="mb-6 text-6xl font-bold">Logos</h1>
 
-		<div class="flex h-full w-2/3 items-center justify-center self-center">
+		<div class="flex h-full w-full md:w-2/3 items-center justify-center self-center">
 			<Table.Root>
 				<Table.Row class="border-0 hover:bg-black">
-					<Table.Cell class={`m-2 border-4 border-neutral-800 bg-black`}>
+					<Table.Cell class={`m-2 border-4 border-neutral-900 bg-black`}>
 						<div class="flex flex-col items-center justify-center">
 							<img src="white.svg" alt="RJM Logo" class="h-fit w-fit" />
 						</div>
 					</Table.Cell>
 
-					<Table.Cell class={`m-2 border-4 border-neutral-800 bg-white`}>
+					<Table.Cell class={`m-2 border-4 border-neutral-900 bg-white`}>
 						<div class="flex flex-col items-center justify-center">
 							<img src="black.svg" alt="RJM Logo" class="h-fit w-fit" />
 						</div>
