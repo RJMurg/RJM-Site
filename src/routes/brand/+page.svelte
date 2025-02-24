@@ -2,6 +2,25 @@
 	import * as Table from '$lib/components/ui/table/index.js';
 </script>
 
+<svelte:head>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rjm.ie/" />
+    <meta property="og:title" content="PrimaryStyle" />
+    <meta property="og:description" content="Fonts, Colours and Logos for RJM" />
+    <meta property="og:image" content="https://rjm.ie/black.svg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://rjm.ie/" />
+    <meta property="twitter:title" content="RJM - PrimaryStyle" />
+    <meta
+        property="twitter:description"
+        content="Fonts, Colours and Logos for RJM"
+    />
+    <meta property="twitter:image" content="https://rjm.ie/black.svg" />
+</svelte:head>
+
 <div class="h-screen w-screen">
 	<div class="flex h-full flex-col items-start justify-end p-5">
 		<h1 class="text-8xl">
