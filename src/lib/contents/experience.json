@@ -47,6 +47,17 @@
 			"title": "Competitions",
 			"items": [
 				{
+					"title": "Best Individual",
+					"image": "societies.jpg",
+					"link": "",
+					"shortDescription": "TU Dublin Societies Awards",
+					"description": [
+						"Won for the most significant contribution to societies in the 2024/25 Academic Year",
+						"Contribution includes massively improved student voice, bringing all campuses together, and restoring the technical aspect of the Computer Science Society",
+						"Negotiated and worked with University staff to improve Student Life and Societies"
+					]
+				},
+				{
 					"title": "National Champion",
 					"image": "wsi.png",
 					"link": "",
