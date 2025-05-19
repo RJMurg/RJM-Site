@@ -3,15 +3,15 @@
 </script>
 
 <svelte:head>
-    <title>
-        PrimaryStyle
-    </title>
+	<title>PrimaryStyle</title>
 </svelte:head>
 
 <div class="h-screen w-screen">
 	<div class="flex h-full flex-col items-start justify-end p-5">
-		<h1 class="text-6xl flex flex-col lg:block lg:text-8xl ">
-			<span class="font-black">Primary</span><span class="text-8xl font-medium text-neutral-500">Style</span>
+		<h1 class="flex flex-col text-6xl lg:block lg:text-8xl">
+			<span class="font-black">Primary</span><span class="text-8xl font-medium text-neutral-500"
+				>Style</span
+			>
 		</h1>
 
 		<h2 class="text-lg font-light">v2.0</h2>
@@ -20,7 +20,9 @@
 
 <div class="h-screen w-screen">
 	<div class="flex h-full flex-col items-start justify-end bg-red-500">
-		<h1 class="text-8xl md:-pl-32 md:-ml-32 md:mb-32 xl:mb-48 md:-rotate-90 md:text-10xl font-bold">Fonts</h1>
+		<h1 class="md:-pl-32 text-8xl font-bold md:-ml-32 md:mb-32 md:-rotate-90 md:text-10xl xl:mb-48">
+			Fonts
+		</h1>
 	</div>
 </div>
 
@@ -212,7 +214,9 @@
 
 <div class="h-screen w-screen">
 	<div class="flex h-full flex-col items-start justify-end bg-red-500">
-		<h1 class="text-7xl md:-pl-32 md:-ml-48 md:mb-32 xl:mb-64 md:-rotate-90 md:text-10xl font-bold">Colours</h1>
+		<h1 class="md:-pl-32 text-7xl font-bold md:-ml-48 md:mb-32 md:-rotate-90 md:text-10xl xl:mb-64">
+			Colours
+		</h1>
 	</div>
 </div>
 
@@ -321,7 +325,11 @@
 
 <div class="h-screen w-screen">
 	<div class="flex h-full flex-col items-start justify-end bg-red-500">
-		<h1 class="text-8xl mb-4 md:-pl-32 md:-ml-32 md:mb-32 xl:mb-48 md:-rotate-90 md:text-10xl font-bold">Logos</h1>
+		<h1
+			class="md:-pl-32 mb-4 text-8xl font-bold md:-ml-32 md:mb-32 md:-rotate-90 md:text-10xl xl:mb-48"
+		>
+			Logos
+		</h1>
 	</div>
 </div>
 
@@ -329,7 +337,7 @@
 	<div class="m-5 flex h-full flex-col items-start justify-start">
 		<h1 class="mb-6 text-6xl font-bold">Logos</h1>
 
-		<div class="flex h-full w-full md:w-2/3 items-center justify-center self-center">
+		<div class="flex h-full w-full items-center justify-center self-center md:w-2/3">
 			<Table.Root>
 				<Table.Row class="border-0 hover:bg-black">
 					<Table.Cell class={`m-2 border-4 border-neutral-900 bg-black`}>
