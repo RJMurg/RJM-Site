@@ -119,6 +119,21 @@
 					]
 				}
 			]
+		},
+		{
+			"title": "Certifications",
+			"items": [
+				{
+					"title": "AWS Certified Solutions Architect - Associate",
+					"image": "solutionsArchitect.png",
+					"link": "https://www.credly.com/badges/0ce36db6-0956-43d5-a94d-9cc11684cc05/public_url",
+					"shortDescription": "Amazon Web Services",
+					"description": [
+						"Earned June 2025",
+						"Demonstrates ability to design and deploy scalable systems on AWS"
+					]
+				}
+			]
 		}
 	]
 }

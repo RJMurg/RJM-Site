@@ -1,12 +1,16 @@
-import eslint from '@eslint/js';
 import prettier from 'eslint-config-prettier';
+import js from '@eslint/js';
+import { includeIgnoreFile } from '@eslint/compat';
 import svelte from 'eslint-plugin-svelte';
 import globals from 'globals';
-import tseslint from 'typescript-eslint';
+import { fileURLToPath } from 'node:url';
+import ts from 'typescript-eslint';
+const gitignorePath = fileURLToPath(new URL('./.gitignore', import.meta.url));
 
-export default tseslint.config(
-	eslint.configs.recommended,
-	...tseslint.configs.recommended,
+export default ts.config(
+	includeIgnoreFile(gitignorePath),
+	js.configs.recommended,
+	...ts.configs.recommended,
 	...svelte.configs['flat/recommended'],
 	prettier,
 	...svelte.configs['flat/prettier'],
@@ -20,13 +24,26 @@ export default tseslint.config(
 	},
 	{
 		files: ['**/*.svelte'],
+		ignores: ['./src/lib/components/ui/**/*.svelte'],
+
 		languageOptions: {
 			parserOptions: {
-				parser: tseslint.parser
+				parser: ts.parser
 			}
+		},
+
+		rules: {
+			// This rule stops ESLint complaining about types not existing when they do lol
+			'no-undef': 'off',
+
+			// This rule stop ESLint throwing a wobbler with ShadCN Svelte
+			'@typescript-eslint/no-unused-vars': [
+				'warn',
+				{
+					argsIgnorePattern: '^_',
+					varsIgnorePattern: '^\\$\\$(Props|Events|Slots|Generic)$'
+				}
+			]
 		}
-	},
-	{
-		ignores: ['build/', '.svelte-kit/', 'dist/']
 	}
 );
