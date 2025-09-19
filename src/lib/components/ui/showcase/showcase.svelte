@@ -19,7 +19,7 @@
 				{#each category.items as item}
 					<ShowcaseCard
 						title={item.title}
-						image={imageDirectory + '/' + item.image}
+						image={'/' + imageDirectory + '/' + item.image}
 						link={item.link}
 						subtitle={item.shortDescription}
 						description={item.description}

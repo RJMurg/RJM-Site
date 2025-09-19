@@ -132,6 +132,16 @@
 						"Earned June 2025",
 						"Demonstrates ability to design and deploy scalable systems on AWS"
 					]
+				},
+				{
+					"title": "Amazon Web Services Developer - Associate",
+					"image": "developer.webp",
+					"link": "https://www.credly.com/badges/91124053-b293-4f5a-be87-752cb0a7ebea/public_url",
+					"shortDescription": "Amazon Web Services",
+					"description": [
+						"Earned September 2025",
+						"Demonstrates knowledge in lifecycle management, security, CI/CD and developing on AWS"
+					]
 				}
 			]
 		}

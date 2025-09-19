@@ -342,13 +342,13 @@
 				<Table.Row class="border-0 hover:bg-black">
 					<Table.Cell class={`m-2 border-4 border-neutral-900 bg-black`}>
 						<div class="flex flex-col items-center justify-center">
-							<img src="white.webp" alt="RJM Logo" class="h-fit w-fit" />
+							<img src="/white.webp" alt="RJM Logo" class="h-fit w-fit" />
 						</div>
 					</Table.Cell>
 
 					<Table.Cell class={`m-2 border-4 border-neutral-900 bg-white`}>
 						<div class="flex flex-col items-center justify-center">
-							<img src="black.webp" alt="RJM Logo" class="h-fit w-fit" />
+							<img src="/black.webp" alt="RJM Logo" class="h-fit w-fit" />
 						</div>
 					</Table.Cell>
 				</Table.Row>
