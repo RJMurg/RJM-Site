@@ -20,7 +20,7 @@
 					"title": "BitHunt",
 					"image": "bithunt.png",
 					"link": "https://github.com/cs-soc-tudublin/bithunt",
-					"shortDescription": "Treasure Hunt for First Years",
+					"shortDescription": "AR Treasure Hunts for TU Dublin Students",
 					"description": [
 						"QR codes hidden around the campus during Freshers Week",
 						"Students scan codes and win a prize when they find them all",
@@ -42,17 +42,6 @@
 					]
 				},
 				{
-					"title": "Traqit",
-					"image": "",
-					"link": "",
-					"shortDescription": "Inventory Management for Student Life",
-					"description": [
-						"Created as Final Year Project in Computer Science Undergraduate",
-						"Complete inventory management system for Clubs and Societies in TU Dublin",
-						"Completed project will be deployed & used by Student Life in TU Dublin"
-					]
-				},
-				{
 					"title": "Clerk",
 					"image": "clerk.svg",
 					"link": "https://github.com/cs-soc-tudublin/clerk",
@@ -64,12 +53,24 @@
 					]
 				},
 				{
+					"title": "InterestEngine",
+					"image": "",
+					"link": "https://github.com/rjmurg/interestengine",
+					"shortDescription": "Hand-rolled Web Form for event planning",
+					"description": [
+						"Created to gather interest for the TU DubLAN LAN Party",
+						"Anonymously collects data for the committee to focus on what the students want",
+						"Written in SvelteKit using Prisma ORM to connect to PostgreSQL",
+						"Designed for containerisation"
+					]
+				},
+				{
 					"title": "TrackEngine",
 					"image": "",
 					"link": "https://github.com/irishtnt/trackengine",
 					"shortDescription": "Improved Realtime API for Irish Rail",
 					"description": [
-						"First ever API",
+						"First attempt at API",
 						"Collects & pre-parses XML data from Irish Rail's Realtime API",
 						"Follows RESTful principles",
 						"Written in Node.js with Express"
@@ -80,6 +81,18 @@
 		{
 			"title": "Other Projects",
 			"items": [
+				{
+					"title": "DOAF 2023",
+					"image": "dyt.webp",
+					"link": "https://dublinyouththeatre.com/productions/debut-one-act-festival-2023/",
+					"shortDescription": "Debut One-Act Festival",
+					"description": [
+						"Second year as DYT's Lighting Designer",
+						"Successfuly lit 3 consecutive one-act shows using the same rig",
+						"Stage Wash was split into sections to improve variability between shows and multiple specials",
+						"Co-facilitated DYT's first ever member-led workshop, 'Lighting for Theatre'"
+					]
+				},
 				{
 					"title": "MOAF 2022",
 					"image": "dyt.webp",
@@ -92,15 +105,14 @@
 					]
 				},
 				{
-					"title": "DOAF 2023",
+					"title": "The Spanish Tragedy",
 					"image": "dyt.webp",
-					"link": "https://dublinyouththeatre.com/productions/debut-one-act-festival-2023/",
-					"shortDescription": "Debut One-Act Festival",
+					"link": "https://dublinyouththeatre.com/productions/the-spanish-tragedy/",
+					"shortDescription": "DYT's 2022 Big Show",
 					"description": [
-						"Second year as DYT's Lighting Designer",
-						"Successfuly lit 3 consecutive one-act shows using the same rig",
-						"Stage Wash was split into sections to improve variability between shows and multiple specials",
-						"Co-facilitated DYT's first ever member-led workshop, 'Lighting for Theatre'"
+						"Performed in Project Arts Centre",
+						"Worked with Sarah-Jane Shiels and Síofra Nic Liam",
+						"First show after certifying with Stage Pass"
 					]
 				}
 			]

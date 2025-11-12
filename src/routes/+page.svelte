@@ -2,12 +2,10 @@
 	import Hero from '$lib/components/ui/hero/hero.svelte';
 
 	const subtitles = [
-		'1st Class Honours Student',
-		'Computer Science w/ German',
-		'Systems Administrator',
-		'Former Societies President',
+		'Computer Science Student',
+		'Societies Forum President',
 		'WorldSkills Ireland Champion',
-		'STAR Student @ SAP'
+		'VT/STAR Student @ SAP'
 	];
 
 	let tempSubtitles = subtitles;

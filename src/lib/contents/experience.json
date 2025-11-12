@@ -4,17 +4,15 @@
 			"title": "Work Experience",
 			"items": [
 				{
-					"title": "STAR Student",
+					"title": "VT/STAR Student",
 					"image": "sap.png",
 					"link": "",
 					"shortDescription": "SAP",
 					"description": [
 						"Joined May 2024",
-						"STAR Programme consists of 2 rotations separated by semester 1 of Third Year",
-						"Created production features in SAP Analytics Cloud",
-						"Second rotation on Core team in SAP Global Headquarters, Germany",
-						"Sole developer of product that is actively being integrated in to SAP Analytics Cloud",
-						"Designed and implemented multi-platform standard for creation of analytical dashboards"
+						"VT/STAR Programme consists of 2 rotations separated by semester 1 of Third Year",
+						"Wrote multiple production features in SAP Analytics Cloud",
+						"Rotation 2 will take place in the Global Headquarters in Walldorf, Germany"
 					]
 				},
 				{
@@ -23,10 +21,11 @@
 					"link": "https://cspp.ie/",
 					"shortDescription": "Computer Science Society",
 					"description": [
+						"Elected April 2024",
 						"Formerly Chairperson in 2023/24, and First Year Rep in 2022/23",
-						"Single-handedly restored technical infrastructure after 5-year gap",
-						"Collaborated with IT Department to secure 4 public IPv4 IP Addresses",
-						"Chief Architect on infrastructure and planning, sole developer on multiple projects"
+						"Restored technical aspect of society which went offline in 2020",
+						"Worked with IT Department to secure internet access to the Server Room and follow best practices",
+						"Current Chief Architect and Lead Developer for multiple projects"
 					]
 				},
 				{
@@ -35,13 +34,11 @@
 					"link": "",
 					"shortDescription": "TU Dublin Societies",
 					"description": [
-						"Former Grangegorman Chairperson 2023/24",
-						"Represented over 100 societies and 500 students at university and national levels",
-						"Returned student voices to society budgets in over 5 years",
-						"Made Societies Executive transparent and accountable",
-						"First President to promote cross-campus collaborations",
-						"Directly impacted the most amount of awards won by TU Dublin at national societies awards",
-						"Introduced User Group for the only student centre in flagship Grangegorman campus"
+						"Elected April 2024",
+						"Formerly Grangegorman Chairperson in 2023/24",
+						"Duties include chairing Societies Forum, representing Societies to the University, managing budgeting, and overseeing the Societies Executive",
+						"Actively interact with over 100 societies and multiple University departments",
+						"Focusing on improving Student Life in Tallaght and Blanchardstown campuses, and strengthening all City Campus Societies"
 					]
 				}
 			]
