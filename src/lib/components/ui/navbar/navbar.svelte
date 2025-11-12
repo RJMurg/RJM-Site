@@ -19,7 +19,7 @@
 			/>
 		</button>
 		<div class="flex w-full basis-1/3 justify-center">
-			<img src="favicon.png" alt="Home icon" class="block h-10 w-10 sm:hidden" />
+			<img src="white.webp" alt="Home icon" class="block h-10 w-10 sm:hidden" />
 		</div>
 		<div class="basis-1/3" />
 	</div>
