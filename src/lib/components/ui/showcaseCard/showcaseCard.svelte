@@ -11,7 +11,7 @@
 
 <Card.Root class="m-5 h-full min-w-[16rem] max-w-[30rem]">
 	<Card.Header class="align-center flex items-center">
-		{#if image !== 'portfolio/'}
+		{#if image !== '/portfolio/'}
 			<img src={image} alt={title} class="h-20 w-20 rounded-full object-cover" />
 		{:else}
 			<img src="white.svg" alt="Placeholder" class="h-20 w-20 object-cover" />
