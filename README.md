@@ -1,5 +1,9 @@
 # RJM Site
 
+> [!WARNING]  
+> RJM-Site has been ARCHIVED!
+> Please see [rjmurg/site](https://github.com/rjmurg/site)
+
 This repository contains the source code for my portfolio site. It is built using [SvelteKit](https://kit.svelte.dev/) and [Tailwind](https://tailwindcss.com/), and hosted on my private server.
 This site is licensed under the [GNU General Public License v3.0](LICENSE.md).
 
